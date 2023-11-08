@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkelt Skjema</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+<body>
+    <div class="main_container">
+        <h1>Coding Scematic</h1>
+
+        <div class="form_container">
+
+            <form action="./index.html" method="post">
+
+            <h2 id="dittNavn">Name</h2>
+            <input type="text">
+
+            <h2 id="dinAlder">Age</h2>
+            <input type="number">
+
+            <div class="rangeSpm">
+            <h2>How good are you at coding?</h2>
+            <div id="rangeSlider">
+            <h3>Shitty</h3>
+            <input type="range">
+            <h3>Awesome</h3>
+            </div>
+            </div>
+
+
+            <div class="checkBoxSpm">
+            <h2 id="checkboxSpmHeader">Witch coding languages do you know? </h2>
+            <label for="checkOption1">Html</label>
+            <input id="checkOption1"  type="checkbox" name="checkboxOptions" value="Html">
+            <br>
+            <label for="checkOption1">CSS</label>
+            <input id="checkOption2"  type="checkbox" name="checkboxOptions" value="CSS">
+            <br>
+            <label for="checkOption1">Javascript</label>
+            <input id="checkOption2"  type="checkbox" name="checkboxOptions" value="Javascript">
+            <br>
+            <label for="checkOption1">Python</label>
+            <input id="checkOption2"  type="checkbox" name="checkboxOptions" value="Python">
+            </div>
+
+
+            <div class="radioButtonSpm">
+            <h2 id="radioButtonHeader">Are you newly educated?</h2>
+            <label for="yesOption">Yes</label>
+            <input type="radio" id="yesOption" name="radioAnswer" value="yes">
+            <label for="noOption">No</label>
+            <input type="radio" id="noOption" name="radioAnswer" value="no">
+            </div>
+
+
+            <div class="dropdownListSpm">
+            <h2 id="dropdownListHeader">What is your first language?</h2>
+            <select name="dropdownListSelect" id="dropdownListSelect">
+                <option value="norwegian">Norwegian</option>
+                <option value="english">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Mandarin">Mandarin</option>
+            </select>
+            </div>
+
+
+            <div class="datalistSpm">
+            <h2 id="datalistHeader">Country of Origin?</h2>
+            <input list="datalistInput" type="text">
+            </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
