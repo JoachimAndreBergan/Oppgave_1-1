@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    background-image: url(../Assets/matrix.png);
+    color: black;
 }
 
 .title{
+    color: white;
     font-size: 64px;
     font-family: monospace;
     font-weight: 400;
@@ -18,13 +19,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../Assets/matrix.png);
     
 }
 
 .form_container{
 width: 585px;
 height: auto;
-background-color: rgb(38, 198, 65);
+background-color: rgb(35, 93, 44);
 border: 5px solid black;
 border-radius: 30px;
 display: flex;
